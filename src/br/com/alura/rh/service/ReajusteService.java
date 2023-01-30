@@ -16,7 +16,7 @@ public class ReajusteService {
             throw new ValidacaoException("Reajuste nao pode ser superior a 40% do salario!");
         }
         BigDecimal salarioReajustado = salarioAtual.add(aumento);
-        funcionario.atualizarSalario();
+        funcionario.atualizarSalario(salarioReajustado);
     }
 
 }
