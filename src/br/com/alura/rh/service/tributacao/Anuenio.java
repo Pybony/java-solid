@@ -22,5 +22,5 @@ public class Anuenio implements Reajuste {
     public LocalDate data() {
         return data;
     }
-
+ 
 }
